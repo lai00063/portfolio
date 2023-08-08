@@ -58,6 +58,9 @@
     margin-top: 50px;
   }
   
+  .container{
+    margin-top: 2%;
+  }
   
 
   /* Text Glitch Effects From Matt Gross https://codepen.io/mattgrosswork/pen/VwprebG */
@@ -665,5 +668,4 @@ footer{
     justify-content: center;
   }
   
-
 
