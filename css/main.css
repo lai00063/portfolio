@@ -433,7 +433,7 @@
   
     60% {
       top: 4px;
-      left: -50px;
+      left: -5px;
     }
   
     75% {
@@ -503,7 +503,7 @@
   
     50% {
       font-weight: 300;
-      color: #00FFEB;
+      color: #77aba7;
     }
   
     60% {
@@ -513,7 +513,7 @@
   
     90% {
       font-weight: 500;
-      color: #00FFEB;
+      color: #80aeaa;
     }
   }
   
@@ -570,17 +570,6 @@
     display:block;
 }
 
-.fcf-body {
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #ffffff;
-    text-align: left;
-    padding: 10px;
-    padding-bottom: 10px;
-    max-width: 100%;
-}
-
 .fcf-form-group {
     margin-bottom: 1rem;
 }
@@ -629,6 +618,21 @@
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
+footer{
+    text-align: center;
+}
+
+.social-icons i {
+    margin: 15px;
+    font-size: 30px;
+  }
+
+  .social-icons i:hover {
+    color: #707070; /* Color when hovering */
+    transition-property: all;
+    transition-duration: 0.3s;
+  }
+  
 @media (prefers-reduced-motion: reduce) {
     .fcf-btn {
         transition: none;
