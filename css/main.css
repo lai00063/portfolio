@@ -1,4 +1,4 @@
-.bg-primary {
+.bg-primary { /*set primary to different color  */
     background-color: #212020 !important;
  }
  .bg-secondary {
@@ -34,7 +34,8 @@
 
 
 
-.learnmore {
+/*set a border and hover to the portolio butten  */
+.projectbut {
     display: inline-block;
     border: 1px solid #989898;
     padding: 8px 24px;
@@ -45,7 +46,7 @@
     margin-top: 269px;
     
   }
-  .learnmore:hover {
+  .projectbut:hover {
     color: #00FFEB; /* Text color when hover */
     border: 1px solid #00FFEB;
     transition-property: all;
@@ -62,6 +63,12 @@
     margin-top: 2%;
   }
   
+  .servicesection{
+    margin: 4%;
+  }
+  .service{
+    margin: 4%;
+  }
 
   /* Text Glitch Effects From Matt Gross https://codepen.io/mattgrosswork/pen/VwprebG */
   /*i made adjment base on his code */
@@ -91,21 +98,21 @@
   .layers::after {
     content: attr(data-text);
     position: absolute;
-    width: 110%;
+    width: 85%;
     z-index: -1;
   }
   
   .layers::before {
     font-weight: bold;
-    top: 10px;
-    left: 15px;
+    top: 1px;
+    left: 10px;
     color: #00FFEB;
   }
   
   .layers::after {
     font-weight: bold;
     top: 5px;
-    left: -10px;
+    right: 6px;
     color: #00FFEB;
   }
   
@@ -163,7 +170,7 @@
   }
   
   .paths {
-    animation: paths 4s step-end infinite;
+    animation: paths 8s step-end infinite;
   }
   
   @keyframes paths {
@@ -420,38 +427,38 @@
   
   .movement {
     position: relative;
-    animation: movement 6s step-end infinite;
+    animation: movement 7s step-end infinite;
   }
   
   @keyframes movement {
     0% {
-      top: 0px;
-      left: -10px;
-    }
-  
-    15% {
-      top: 10px;
-      left: 10px;
-    }
-  
-    60% {
-      top: 4px;
-      left: -5px;
-    }
-  
-    75% {
-      top: -5px;
-      left: 20px;
-    }
-  
-    100% {
-      top: 10px;
-      left: 5px;
-    }
+        top: 0px;
+        left: -20px;
+      }
+    
+      15% {
+        top: 10px;
+        left: 10px;
+      }
+    
+      60% {
+        top: 5px;
+        left: -10px;
+      }
+    
+      75% {
+        top: -5px;
+        left: 20px;
+      }
+    
+      100% {
+        top: 10px;
+        left: 5px;
   }
+}
   
   .opacity {
-    animation: opacity 2s step-end infinite;
+    animation: opacity 4s step-end infinite;
   }
   
   @keyframes opacity {
@@ -490,13 +497,13 @@
   }
   
   .font {
-    animation: font 7s step-end infinite;
+    animation: font 5s step-end infinite;
   }
   
   @keyframes font {
     0% {
       font-weight: 100;
-      color: #ffffff;
+      color: #dddddd;
     }
   
     20% {
@@ -510,12 +517,12 @@
     }
   
     60% {
-      font-weight: 700;
+      font-weight: 500;
       color: rgb(204, 204, 204);
     }
   
     90% {
-      font-weight: 500;
+      font-weight: 400;
       color: #80aeaa;
     }
   }
@@ -525,12 +532,12 @@
   }
   
   .glitch::before {
-    animation: paths 5s step-end infinite, opacity 5s step-end infinite,
+    animation: paths 5s step-end infinite, opacity 7s step-end infinite,
       font 8s step-end infinite, movement 10s step-end infinite;
   }
   
   .glitch::after {
-    animation: paths 4s step-end infinite, opacity 4s step-end infinite,
+    animation: paths 6s step-end infinite, opacity 6s step-end infinite,
       font 7s step-end infinite, movement 8s step-end infinite;
   }
   
@@ -551,6 +558,21 @@
   .tw{
     width: 500px;
   }
+
+  .twcarousel {
+    max-width: 500px; /* adjust carousel width  */
+    margin: 0 auto;
+  }
+  
+  .carousel-inner {
+    max-width: 100%;
+  }
+  
+  .carousel-inner .carousel-item img {
+    max-width: 100%;
+    height: auto; /* maintain the aspect ratio */
+  }
+  
 
 .readmore {
     display: inline-block;
@@ -620,7 +642,9 @@
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
+.collaboration{
+    list-style: none;
+}
 footer{
     text-align: center;
 }
@@ -642,7 +666,6 @@ footer{
     }
 }
 
-
 .fcf-btn-primary {
     color: #fff;
     border-color: #ffffff;
@@ -662,7 +685,6 @@ footer{
 .fcf-btn-block+.fcf-btn-block {
     margin-top: 0.5rem;
 }
-
 
   footer{
     justify-content: center;

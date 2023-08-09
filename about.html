@@ -11,29 +11,27 @@
   <body class="bg-secondary text-white ">
  <!--responsive nav with logo -->
  <nav class="navbar navbar-expand-lg bg-primary " >
-  <div class="container-fluid">
-    <img class="logo" src="images/logo.png" alt="logo">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav ">
-        <a class="nav-link " aria-current="page" href="index.html">HOME</a>
-        <a class="nav-link  " href="creative-works.html">WORK</a>
-        <a class="nav-link  " href="about.html">ABOUT</a>
+    <div class="container-fluid">
+      <img class="logo" src="images/logo.png" alt="logo">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link  " href="creative-works.html">WORK</a>
+          <a class="nav-link  " href="about.html">ABOUT</a>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
-
-
+  </nav>
 <!-- About Hero img -->
     <div >
       <img class="img-fluid abouthero" src="images/about.png" alt="aboutimg">
     </div>
 
    <!-- ABOUT section -->
-    <div class="container">
+    <div class="container p-3">
         <h3>關於 ABOUT 私について</h3>
         <div class="row">
             <div >
@@ -42,47 +40,52 @@
   
 
       <!-- CONTACT section -->
-   
+      <div class="container p-3">
         <h3>聯絡 CONTACT ME こちらに連絡</h3>
         <div class="row">
             <div >
             <p>Please feel free to contact me for any graphic design work or if you have any questions. As a skilled and experienced graphic designer, I am passionate about creating visually appealing and effective designs. Whether you need a logo, branding materials, illustrations, or any other design project, I am here to help bring your vision to life. I am also happy to answer any queries or provide guidance on design-related matters. Don’t hesitate to reach out, and I look forward to collaborating with you.</p>
         </div>
+
+        
     </div>
 
       <!-- CONTACT FROM -->
 
  
-
-    <div id="fcf-form">
-    
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        <div class="container ">    
+            <div id="fcf-form ">
+                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
             
-            <div class="fcf-form-group">
-                <label for="Name" class="fcf-label">NAME</label>
-                <div class="fcf-input-group">
-                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                </div>
-            </div>
+                    <div class="fcf-form-group">
+                        <label for="Name" class="fcf-label">NAME</label>
+                        <div class="fcf-input-group">
+                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Email" class="fcf-label">EMAIL address</label>
+                        <div class="fcf-input-group">
+                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <label for="Message" class="fcf-label">MASSAGE</label>
+                        <div class="fcf-input-group">
+                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                        </div>
+                    </div>
+            
+                    <div class="fcf-form-group">
+                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
+                    </div>
     
-            <div class="fcf-form-group">
-                <label for="Email" class="fcf-label">EMAIL address</label>
-                <div class="fcf-input-group">
-                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                </div>
+
             </div>
-    
-            <div class="fcf-form-group">
-                <label for="Message" class="fcf-label">MASSAGE</label>
-                <div class="fcf-input-group">
-                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                </div>
-            </div>
-    
-            <div class="fcf-form-group">
-                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
-            </div>
-    </div>
+
+         </div>
     
 
 
@@ -97,7 +100,7 @@
                 <i class="fa-brands fa-instagram"></i>
                 <i class="fa-brands fa-twitter"></i>
               </div>   
-            <p>copyright &copy;2023 Derek</p>
+            <p>copyright &copy;2023 Derek Lai</p>
         </footer>
     </div>
 </div>
