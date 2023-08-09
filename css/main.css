@@ -12,6 +12,18 @@
     height: 90px!important;
     margin: 10px ;
 }
+
+.logo {
+    height: 90px!important;
+    margin: 10px;
+    transition: box-shadow 0.3s;
+}
+
+.logo:hover {
+    box-shadow: 0 0 10px 5px rgb(72, 72, 72); /* Adjust the parameters for the glow effect */
+}
+
+
   
 .navbar-nav{
     font-size: 25px;
@@ -42,8 +54,10 @@
     font-size: 20px;
     text-decoration: none;
     color: #e0e0e0;
-    margin-left: 1125px;
-    margin-top: 269px;
+    margin-left: 300px;
+    margin-top: 265px;
+    position: absolute;
+  
     
   }
   .projectbut:hover {
@@ -53,10 +67,17 @@
     transition-duration: 0.3s;
   }
 
+  .h1{
+    max-height: 70px;
+  }
+.serviceh1{
+    margin-top: 5%;
+}
   .dereklai{
-    width: 300px;
-    margin-left: 60px;
-    margin-top: 50px;
+    max-width: 300px;
+    position: absolute;
+ margin-top: 244px;
+ margin-left: 490px;
   }
   
   .container{
@@ -82,7 +103,7 @@
     color: #fff;
     z-index: 3;
     letter-spacing: 10px;
-    margin-right: 40%;
+    margin-right: 35%;
     
     /* Bright things in dark environments usually cast that light, giving off a glow */
     filter: drop-shadow(0 1px 3px);
@@ -550,10 +571,22 @@
   }
   
   .heroimg{
-    background-image: url("../images/hero.jpg");
-    height: 800px;
-    width: 100%;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 200px;
   }
+
+  .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 130%;
+    
+  }
+
 
   .tw{
     width: 500px;
@@ -589,6 +622,10 @@
     border: 1px solid #00FFEB;
     transition-property: all;
     transition-duration: 0.3s;
+  }
+
+  .video{
+    margin-bottom: 10%;
   }
 
   #fcf-form {
@@ -645,16 +682,30 @@
 .collaboration{
     list-style: none;
 }
+.twcollaboration{
+    margin-top: 3%;
+}
+.twlogo{
+    height: 500px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+.reddotimg{
+    height: 70px;
+    margin-bottom:1% ;
+}
 footer{
     text-align: center;
 }
-
-.social-icons i {
+.fab{
+    color: #ccc;
+}
+.social-icons  {
     margin: 15px;
     font-size: 30px;
   }
 
-  .social-icons i:hover {
+  .social-icons :hover {
     color: #707070; /* Color when hovering */
     transition-property: all;
     transition-duration: 0.3s;
@@ -686,8 +737,39 @@ footer{
     margin-top: 0.5rem;
 }
 
-  footer{
-    justify-content: center;
-  }
+
   
 
+  @media (max-width: 767px) {
+
+      .hero-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 250px;
+        
+      }
+
+      .dereklai{
+        max-width: 100px;
+        position: absolute;
+     margin-top: 10px;
+     margin-left: 110px;
+      }
+
+      .projectbut {
+        margin-left: 100px;
+        margin-top: 40px;
+        position: absolute;
+        
+      }
+
+      .service{
+        max-width: 250px;
+        text-align: center;
+      }
+      
+    
+
+  }
