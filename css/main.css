@@ -711,6 +711,9 @@
     margin-bottom:1% ;
 }
 
+.surreal{
+  width:500px;
+}
 .sm19img {
     width: 500px;
 }
@@ -762,8 +765,12 @@ footer{
   
 
   @media (max-width: 767px) {
-    
-
+    .navbar-toggler-icon{
+      color: #ccc;
+    }
+    .navbar-toggler-icon {
+      filter: invert(1);
+    }
       .hero-bg {
         position: absolute;
         top: 0;
