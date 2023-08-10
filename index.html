@@ -13,27 +13,38 @@
     <script src="https://kit.fontawesome.com/c0c1d53b1a.js" crossorigin="anonymous"></script>
     <style>
         .navbar-toggler-icon {
-            filter: invert(1);
+            filter: invert(1);  
+        }
+            /* Style for regular links */
+            a {
+          color: rgb(255, 255, 255); /* Change this to your desired link color */
+          text-decoration: none; /* Remove underline */
+        }
+      
+        /* Style for hovered links */
+        a:hover {
+          color: rgb(151, 151, 151); /* Change this to your desired hover color */
         }
     </style>
+
 </head>
 <body class="bg-secondary text-white">
      <!--responsive nav with logo -->
      <nav class="navbar navbar-expand-lg bg-primary">
-      <div class="container-fluid">
-          <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="index.html" role="menuitem">HOME</a>
-                  <a class="nav-link" href="creative-works.html" role="menuitem">WORK</a>
-                  <a class="nav-link" href="about.html" role="menuitem">ABOUT</a>
-              </div>
-          </div>
-      </div>
-  </nav>
+        <div class="container-fluid">
+            <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav" role="menubar">
+                    <a class="nav-link" aria-current="page" href="index.html" role="menuitem">HOME</a>
+                    <a class="nav-link" href="creative-works.html" role="menuitem">WORK</a>
+                    <a class="nav-link" href="about.html" role="menuitem">ABOUT</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 <!-- Hero -->
 <section class="heroimg">
     <img src="images/hero.jpg" alt="hero-image" class="hero-bg">
