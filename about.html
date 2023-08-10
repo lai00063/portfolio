@@ -1,116 +1,113 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Derek Lai Portfolio</title>
+    <!--use google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!--use bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
+           <!--use for social-icons  -->
     <script src="https://kit.fontawesome.com/c0c1d53b1a.js" crossorigin="anonymous"></script>
 </head>
-  <body class="bg-secondary text-white ">
- <!--responsive nav with logo -->
- <nav class="navbar navbar-expand-lg bg-primary " >
+<body class="bg-secondary text-white">
+      <!--responsive nav with logo -->
+<nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid">
-        <a href="index.html">  <img class="logo" src="images/logo.png" alt="logo"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-link " aria-current="page" href="index.html">HOME</a>
-          <a class="nav-link  " href="creative-works.html">WORK</a>
-          <a class="nav-link  " href="about.html">ABOUT</a>
+        <a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" aria-current="page" href="index.html" role="menuitem">HOME</a>
+                <a class="nav-link" href="creative-works.html" role="menuitem">WORK</a>
+                <a class="nav-link" href="about.html" role="menuitem">ABOUT</a>
+            </div>
         </div>
-      </div>
     </div>
-  </nav>
-<!-- About Hero img -->
-    <div >
-      <img class="img-fluid abouthero" src="images/about.png" alt="aboutimg">
-    </div>
+</nav>
 
-   <!-- ABOUT section -->
-    <div class="container ">
-        <img class="img-fluid h1 abouth1" src="images/abouth1.png" alt="aboutme">
-        <div class="row">
-            <div >
-            <p>I’m Derek Lai, a graphic design student from Hong Kong currently studying in Ottawa, Canada. I specialize in visual and communication design and have expertise in graphic, print, video and digital design.</p>
+<div>
+    <img class="img-fluid abouthero" src="images/about.png" alt="aboutimg" role="img" aria-label="About Hero Image">
+</div>
+
+<div class="container">
+    <img class="img-fluid h1 abouth1" src="images/abouth1.png" alt="aboutme" role="img" aria-label="About Me Heading">
+    <div class="row">
+        <div>
+            <p>I’m Derek Lai, a graphic design student from Hong Kong currently studying in Ottawa, Canada. I specialize in visual and communication design and have expertise in graphic, print, video, and digital design.</p>
         </div>
-  
+    </div>
+</div>
 
-      <!-- CONTACT section -->
-      <div class="container p-3">
-        <img class="img-fluid h1 contachh1" src="images/contachh1.png" alt="contachme">
-        <div class="row">
-            <div >
+<div class="container p-3">
+    <img class="img-fluid h1 contachh1" src="images/contachh1.png" alt="contactme" role="img" aria-label="Contact Me Heading">
+    <div class="row">
+        <div>
             <p>Please feel free to contact me for any graphic design work or if you have any questions. As a skilled and experienced graphic designer, I am passionate about creating visually appealing and effective designs. Whether you need a logo, branding materials, illustrations, or any other design project, I am here to help bring your vision to life. I am also happy to answer any queries or provide guidance on design-related matters. Don’t hesitate to reach out, and I look forward to collaborating with you.</p>
         </div>
-
-        
     </div>
+</div>
 
-      <!-- CONTACT FROM -->
-
- 
-        <div class="container ">    
-            <div id="fcf-form ">
-                <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-            
-                    <div class="fcf-form-group">
-                        <label for="Name" class="fcf-label">NAME</label>
-                        <div class="fcf-input-group">
-                            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
-                        </div>
-                    </div>
-            
-                    <div class="fcf-form-group">
-                        <label for="Email" class="fcf-label">EMAIL address</label>
-                        <div class="fcf-input-group">
-                            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
-                        </div>
-                    </div>
-            
-                    <div class="fcf-form-group">
-                        <label for="Message" class="fcf-label">MASSAGE</label>
-                        <div class="fcf-input-group">
-                            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
-                        </div>
-                    </div>
-            
-                    <div class="fcf-form-group">
-                        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
-                    </div>
-    
-
+<div class="container">
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php" aria-label="Contact Form">
+        <div class="fcf-form-group">
+            <label for="Name" class="fcf-label">NAME</label>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required aria-required="true">
             </div>
+        </div>
 
-         </div>
-    
+        <div class="fcf-form-group">
+            <label for="Email" class="fcf-label">EMAIL address</label>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required aria-required="true">
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <label for="Message" class="fcf-label">MESSAGE</label>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required aria-required="true"></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">SEND</button>
+        </div>
+    </form>
+</div>
+  <!-- skiplinks -->
+  <div class="container text-end skiplinks">
+    <a href="#" class="btn btn-floating" >
+        <i class="fa-solid fa-angles-up display-3 p-3 text-white"></i>
+    </a>
+</div>
 
 
-
-
- <!-- simple footer -->
- <div class="container-fluid bg-primary   ">
-    <div class="row ">
-        <footer class="col ">
-            <div class="social-icons">
-                <a href="https://www.facebook.com/LAI.YING.TING.6149" target="_blank">
-                  <i class="fab fa-facebook"></i>
+<!-- simple footer -->
+<div class="container-fluid bg-primary">
+    <div class="row">
+        <footer class="col">
+            <div class="social-icons"><!--social-icons -->
+                <a href="https://www.facebook.com/LAI.YING.TING.6149" target="_blank" aria-label="Facebook">
+                    <i class="fab fa-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/yourinstagramlink" target="_blank">
-                  <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/yourinstagramlink" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
                 </a>
-                <a href="https://www.twitter.com/yourtwitterlink" target="_blank">
-                  <i class="fab fa-twitter"></i>
+                <a href="https://www.twitter.com/yourtwitterlink" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
                 </a>
-              </div>   
-            <p>copyright &copy;2023 Derek Lai</p>
+            </div>
+            <p>&copy; 2023 Derek Lai</p>
         </footer>
     </div>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
 </html>

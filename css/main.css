@@ -1,3 +1,7 @@
+* {
+    font-family: 'Rubik', sans-serif;/*use google font rubink */
+}
+
 .bg-primary { /*set primary to different color  */
     background-color: #212020 !important;
  }
@@ -43,8 +47,6 @@
     color: #00FFEB; 
     text-decoration: none; 
 }
-
-
 
 /*set a border and hover to the portolio butten  */
 .projectbut {
@@ -591,11 +593,14 @@
   .tw{
     width: 500px;
   }
+.jfft{
+    width: 500px;
+}
+.jfftcarousel .carousel-control-prev,
+.jfftcarousel .carousel-control-next {
+  width: 15%;
+}
 
-  .twcarousel {
-    max-width: 500px; /* adjust carousel width  */
-    margin: 0 auto;
-  }
   
   .carousel-inner {
     max-width: 100%;
@@ -679,11 +684,13 @@
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-.collaboration{
-    list-style: none;
+.reddot{
+    color: #ccc;
 }
-.twcollaboration{
+
+.Credits{
     margin-top: 3%;
+    list-style: none;
 }
 .twlogo{
     height: 500px;
@@ -694,6 +701,7 @@
     height: 70px;
     margin-bottom:1% ;
 }
+
 footer{
     text-align: center;
 }
@@ -754,13 +762,13 @@ footer{
       .dereklai{
         max-width: 100px;
         position: absolute;
-     margin-top: 10px;
-     margin-left: 110px;
+        margin-top: 48px;
+        margin-left: 110px;
       }
 
       .projectbut {
-        margin-left: 100px;
-        margin-top: 40px;
+        margin-left: -18px;
+        margin-top: -15px;
         position: absolute;
         
       }
@@ -769,7 +777,5 @@ footer{
         max-width: 250px;
         text-align: center;
       }
-      
-    
 
   }
