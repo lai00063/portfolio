@@ -27,6 +27,9 @@
     box-shadow: 0 0 10px 5px rgb(72, 72, 72); /* Adjust the parameters for the glow effect */
 }
 
+.navbar-toggler-icon {
+  filter: invert(1);  
+}
 
   
 .navbar-nav{
@@ -588,7 +591,47 @@
     height: 130%;
     
   }
+  .video-container {
+    position: relative;
+    width: 500px;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
+            /* Style for regular links */
+            a {
+              color: rgb(255, 255, 255);
+              text-decoration: none; 
+            }
+          
+            /* Style for hovered links */
+            a:hover {
+              color: rgb(151, 151, 151); 
+            }
+              .video-container {
+                position: relative;
+                width: 100%;
+                padding-bottom: 56.25%; /* 16:9 aspect ratio */
+                height: 0;
+                overflow: hidden;
+              }
+              
+              .video-container iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+              }
 
   .tw{
     width: 500px;
@@ -599,6 +642,11 @@
 .jfftcarousel .carousel-control-prev,
 .jfftcarousel .carousel-control-next {
   width: 15%;
+}
+
+.jfftlogo{
+  margin-top: -25%;
+
 }
 
   
@@ -727,10 +775,12 @@ footer{
 .social-icons  {
     margin: 15px;
     font-size: 30px;
+    margin-left: 38px;
   }
   .social-icons a 
   {
     color: #212020;
+    margin-right: 25px;
   }
 
   .social-icons a:hover{
@@ -787,8 +837,9 @@ footer{
         height: 250px;
         
       }
-      .overflow{
-        overflow: hidden;
+      .servicesection{
+        margin: 30%;
+        margin-top: -15%;
       }
 
       .dereklai{
@@ -800,9 +851,13 @@ footer{
 
       .projectbut {
         margin-left: -198px;
-        margin-top: -15px;
+        margin-top: -20px;
         position: absolute;
         
+      }
+
+      .cw{
+        margin-left: 3%;
       }
 
       .service{
