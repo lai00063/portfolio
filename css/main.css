@@ -728,6 +728,14 @@ footer{
     margin: 15px;
     font-size: 30px;
   }
+  .social-icons a 
+  {
+    color: #212020;
+  }
+
+  .social-icons a:hover{
+    color: #212020;
+  }
 
   .social-icons :hover {
     color: #707070; /* Color when hovering */
@@ -778,6 +786,9 @@ footer{
         width: 100%;
         height: 250px;
         
+      }
+      .overflow{
+        overflow: hidden;
       }
 
       .dereklai{
